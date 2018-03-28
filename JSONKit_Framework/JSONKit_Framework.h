@@ -1,12 +1,13 @@
 //
 //  JSONKit_Framework.h
-//  JSONKit_Framework
+//  JSONKit-Framework
 //
-//  Created by lzh on 2018/3/29.
+//  Created by lzh on 2018/3/28.
 //  Copyright © 2018年 lzh. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "JSONKit.h"
 
 //! Project version number for JSONKit_Framework.
 FOUNDATION_EXPORT double JSONKit_FrameworkVersionNumber;

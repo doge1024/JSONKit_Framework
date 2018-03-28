@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		34352F28206C00FE00FC5ACD /* JSONKit_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 34352F26206C00FE00FC5ACD /* JSONKit_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34352F30206C014300FC5ACD /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 34352F2E206C014300FC5ACD /* JSONKit.m */; };
+		34352F31206C014300FC5ACD /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 34352F2F206C014300FC5ACD /* JSONKit.h */; };
+		34352F33206C024D00FC5ACD /* JSONKit-NoWarning.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 34352F32206C024D00FC5ACD /* JSONKit-NoWarning.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34352F23206C00FE00FC5ACD /* JSONKit_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONKit_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34352F26206C00FE00FC5ACD /* JSONKit_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONKit_Framework.h; sourceTree = "<group>"; };
 		34352F27206C00FE00FC5ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34352F2E206C014300FC5ACD /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		34352F2F206C014300FC5ACD /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		34352F32206C024D00FC5ACD /* JSONKit-NoWarning.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JSONKit-NoWarning.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +36,7 @@
 		34352F19206C00FE00FC5ACD = {
 			isa = PBXGroup;
 			children = (
+				34352F32206C024D00FC5ACD /* JSONKit-NoWarning.podspec */,
 				34352F25206C00FE00FC5ACD /* JSONKit_Framework */,
 				34352F24206C00FE00FC5ACD /* Products */,
 			);
@@ -47,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				34352F26206C00FE00FC5ACD /* JSONKit_Framework.h */,
+				34352F2F206C014300FC5ACD /* JSONKit.h */,
+				34352F2E206C014300FC5ACD /* JSONKit.m */,
 				34352F27206C00FE00FC5ACD /* Info.plist */,
 			);
 			path = JSONKit_Framework;
@@ -60,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34352F28206C00FE00FC5ACD /* JSONKit_Framework.h in Headers */,
+				34352F31206C014300FC5ACD /* JSONKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34352F33206C024D00FC5ACD /* JSONKit-NoWarning.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34352F30206C014300FC5ACD /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 		34352F2C206C00FE00FC5ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -279,6 +292,7 @@
 		34352F2D206C00FE00FC5ACD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
